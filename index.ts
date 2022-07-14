@@ -6,7 +6,7 @@ class Heart {
     x: number = 0;
     y: number = 0;
     scope: number = 10;
-    maxSize: number = 10;
+    maxSize: number = 50;
     size: number = 0;
     xSpeed: number = 0;
     ySpeed: number = 0;
