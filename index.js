@@ -7,7 +7,7 @@ class Heart {
         this.x = 0;
         this.y = 0;
         this.scope = 10;
-        this.maxSize = 10;
+        this.maxSize = 30;
         this.size = 0;
         this.xSpeed = 0;
         this.ySpeed = 0;
