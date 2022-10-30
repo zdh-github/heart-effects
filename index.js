@@ -61,7 +61,7 @@ function loop() {
             heart.draw();
         }
     }
-    // drawHeart(context, canvas.width / 2, canvas.height / 2 - 25, 50, 50);
+    drawHeart(context, canvas.width / 2, canvas.height / 2 - 25, 50, 50);
     generateHeart();
     requestAnimationFrame(loop);
 }
