@@ -78,9 +78,7 @@ function drawHeart(context, x, y, width, height) {
     // top right curve
     context.bezierCurveTo(x + width / 2, y, x, y, x, y + topCurveHeight);
     context.closePath();
-    context.shadowColor = generateRandomColor();
-    context.shadowBlur = 10;
-    context.fillStyle = "red";
+    context.fillStyle = generateRandomColor();;
     context.fill();
 }
 loop();
